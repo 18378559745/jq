@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;padding:0
+	}
+html,body{
+	font-size:12px;
+	font-family:'微软雅黑';
+	text-align: center;
+	
+	}
+h1,h2,h3,h4,h5,h6,b,strong,i,em{
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	}
+a{
+	/*text-decoration:none;*/
+	color:#000;
+	}
+a:hover{ 
+	text-decoration:underline; 
+	color:red;
+	}
+li{
+	list-style:none;
+	}
+input{
+	outline:none;
+	}
+img{
+	border:0;
+	}
+.clear:after{
+	content:'.';
+	height:0;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	clear:both;
+	}
+
